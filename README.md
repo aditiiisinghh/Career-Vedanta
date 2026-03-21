@@ -1,70 +1,82 @@
-💼 Career Vedanta – MERN Job Portal
+# 💼 Career Vedanta – MERN Job Portal
 
-Career Vedanta is a full-stack job portal built using the MERN stack that connects job seekers and recruiters on a single platform.
+Career Vedanta is a full-stack job portal built using the MERN stack, designed to connect job seekers and recruiters on a unified platform. It enables seamless job discovery, application tracking, and efficient job posting and candidate management.
 
-It allows recruiters to post jobs and manage listings while enabling job seekers to explore opportunities and apply for jobs easily.
+---
 
-🚀 Features
-👨‍💼 Job Seeker Features
+## 📌 Key Features
 
-User registration and login
+### 👨‍💼 Job Seeker Features
 
-Browse available job listings
+* User registration and secure login
+* Browse and search job listings
+* Apply for jobs in real-time
+* Track applied job history
+* JWT-based authentication
 
-Apply for jobs
+---
 
-View applied job history
+### 🏢 Recruiter Features
 
-Secure authentication using JWT
+* Post new job opportunities
+* Edit and delete job listings
+* Manage job applications
+* View and evaluate candidate profiles
 
-🏢 Recruiter Features
+---
 
-Post new job listings
+### 🔐 Authentication & Security
 
-Edit and delete job posts
+* JWT-based authentication system
+* Role-based protected routes
+* Secure API handling and data flow
+* Password encryption (bcrypt recommended)
 
-Manage applications
+---
 
-View candidate profiles
+## 🛠️ Tech Stack
 
-🔐 Authentication & Security
+### Frontend
 
-JWT-based authentication
+* React.js
+* HTML5, CSS3, JavaScript
 
-Protected routes for authorized users
+### Backend
 
-Secure backend API handling
+* Node.js
+* Express.js
 
-🛠️ Tech Stack
-Frontend
+### Database
 
-React.js
+* MongoDB
 
-HTML5
+### Authentication
 
-CSS3
+* JSON Web Token (JWT)
 
-JavaScript
+### Deployment
 
-Backend
+* Vercel (Frontend)
+* *(Recommended)* Render / Railway (Backend)
+* MongoDB Atlas (Database)
 
-Node.js
+---
 
-Express.js
+## 🏗️ System Architecture
 
-Database
+User (Job Seeker / Recruiter)
+    ⬇
+Frontend (React)
+    ⬇
+Backend (Node.js + Express)
+    ⬇
+Database (MongoDB)
 
-MongoDB
+---
 
-Authentication
+## 📂 Project Structure
 
-JSON Web Token (JWT)
-
-Deployment
-
-Vercel (Frontend)
-
-📂 Project Structure
+```id="yqls6r"
 Career-Vedanta
 │
 ├── backend
@@ -81,60 +93,81 @@ Career-Vedanta
 │   └── App.js
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```id="b1ajk8"
 git clone https://github.com/aditiisinghh/Career-Vedanta.git
-2️⃣ Backend Setup
+cd Career-Vedanta
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```id="mqz7rd"
 cd backend
 npm install
 npm start
+```
 
-Backend will run on:
+Runs on:
+👉 http://localhost:5000
 
-http://localhost:5000
-3️⃣ Frontend Setup
+---
+
+### 3️⃣ Frontend Setup
+
+```id="0d8t0c"
 cd frontend
 npm install
 npm start
+```
 
-Frontend will run on:
+Runs on:
+👉 http://localhost:3000
 
-http://localhost:3000
-📊 System Architecture
-User (Job Seeker / Recruiter)
-            │
-            ▼
-      Frontend (React)
-            │
-            ▼
-     Backend (Node + Express)
-            │
-            ▼
-          MongoDB
-🔮 Future Improvements
+---
 
-Resume upload feature
+## 🔮 Future Enhancements
 
-Advanced job search filters
+* 📄 Resume upload & parsing system
+* 🔍 Advanced job search filters (location, salary, skills)
+* 📧 Email notifications for job updates
+* 🧑‍💼 Admin dashboard for platform monitoring
+* 📅 Interview scheduling system
 
-Email notifications for job updates
+---
 
-Admin dashboard
-
-Interview scheduling system
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork the repository and submit a pull request.
 
-📄 License
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
-👩‍💻 Author
+---
 
-Aditi Singh
+## 👩‍💻 Author
 
-GitHub
-https://github.com/aditiisinghh
+**Aditi Singh**
+
+🔗 GitHub: https://github.com/aditiisinghh
+
+---
+
+## 💡 Highlights
+
+* Developed a full-stack job portal using MERN stack
+* Implemented JWT-based authentication and role-based access
+* Designed scalable backend architecture with modular structure
+* Enabled real-time job application and management workflows
