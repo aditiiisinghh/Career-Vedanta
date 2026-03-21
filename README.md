@@ -161,7 +161,7 @@ This project is licensed under the MIT License.
 
 **Aditi Singh**
 
-🔗 GitHub: https://github.com/aditiisinghh
+🔗 GitHub: https://github.com/aditiiisinghh
 
 ---
 
